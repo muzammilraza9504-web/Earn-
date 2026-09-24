@@ -1,0 +1,6 @@
+{
+  "name": "Earnora",
+  "description": "Watch video ads, spin the 1-20 lucky wheel to earn coins, and redeem with UPI or Google Play store coupon codes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Golden Coin Base -->
+    <path
+        android:pathData="M54,54m-30,0a30,30 0 1 1,60 0a30,30 0 1 1,-60 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="24"
+                android:startY="24"
+                android:endX="84"
+                android:endY="84"
+                android:type="linear">
+                <item android:color="#FFE066" android:offset="0.0" />
+                <item android:color="#F59E0B" android:offset="0.5" />
+                <item android:color="#D97706" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner Coin Rim -->
+    <path
+        android:strokeColor="#FFFBEB"
+        android:strokeWidth="2.5"
+        android:fillColor="#00000000"
+        android:pathData="M54,54m-24,0a24,24 0 1 1,48 0a24,24 0 1 1,-48 0" />
+
+    <!-- Center Play/Video Symbol inside Coin -->
+    <path
+        android:fillColor="#1E1B4B"
+        android:pathData="M47,40 L67,54 L47,68 Z" />
+
+    <!-- Rupee / Coin Sparkle Star Top Right -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M76,28 L78,34 L84,36 L78,38 L76,44 L74,38 L68,36 L74,34 Z" />
+
+    <!-- Rupee / Coin Sparkle Star Bottom Left -->
+    <path
+        android:fillColor="#FDE68A"
+        android:pathData="M30,68 L31.5,72.5 L36,74 L31.5,75.5 L30,80 L28.5,75.5 L24,74 L28.5,72.5 Z" />
+</vector>
